@@ -12,9 +12,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import br.com.servidor.autorizacao.model.Authority;
-import br.com.servidor.autorizacao.model.User;
-import br.com.servidor.autorizacao.repository.UserRepository;
+import br.com.servidor.autorizacao.modelo.Authority;
+import br.com.servidor.autorizacao.modelo.User;
+import br.com.servidor.autorizacao.repositorio.UserRepository;
+
 
 @Service
 @Transactional

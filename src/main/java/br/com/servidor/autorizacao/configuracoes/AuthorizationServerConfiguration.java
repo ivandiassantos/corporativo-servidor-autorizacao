@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 
-import br.com.servidor.autorizacao.domain.Authorities;
+import br.com.servidor.autorizacao.dominio.Authorities;
 
 
 @Configuration
@@ -64,14 +64,14 @@ public class AuthorizationServerConfiguration extends
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients.jdbc(dataSource)
-                .withClient(clientId)
-                .authorizedGrantTypes(authorizedGrantTypes)
-                .authorities(Authorities.names())
-                .resourceIds(resourceIds)
-                .scopes(scopes)
-                .secret(secret)
-                .accessTokenValiditySeconds(accessTokenValiditySeconds);
+    	clients.jdbc(dataSource)
+        .withClient(clientId)
+        .authorizedGrantTypes(authorizedGrantTypes)
+        .authorities(Authorities.names())
+        .resourceIds(resourceIds)
+        .scopes(scopes)
+        .secret(encoder.encode(secret))
+        .accessTokenValiditySeconds(accessTokenValiditySeconds);
     }
 
     @Bean
