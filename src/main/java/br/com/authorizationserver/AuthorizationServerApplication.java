@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao;
+package br.com.authorizationserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 //@EnableEurekaClient
-public class ServidorAutorizacaoApplication {
+public class AuthorizationServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServidorAutorizacaoApplication.class, args);
+		SpringApplication.run(AuthorizationServerApplication.class, args);
 	}
 }

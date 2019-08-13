@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.configuracoes;
+package br.com.authorizationserver.configs;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import br.com.servidor.autorizacao.service.UserDetailsService;
+import br.com.authorizationserver.service.UserDetailsService;
 
 
 @Configuration

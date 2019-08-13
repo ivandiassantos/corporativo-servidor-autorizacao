@@ -1,6 +1,6 @@
 spring:
   application:
-    name: servidor-autorizacao
+    name: authorization-server
   cloud:
     config:
       uri: http://localhost:9090

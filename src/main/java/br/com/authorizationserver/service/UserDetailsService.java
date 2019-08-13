@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.service;
+package br.com.authorizationserver.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,9 +12,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import br.com.servidor.autorizacao.modelo.Authority;
-import br.com.servidor.autorizacao.modelo.User;
-import br.com.servidor.autorizacao.repositorio.UserRepository;
+import br.com.authorizationserver.model.Authority;
+import br.com.authorizationserver.model.User;
+import br.com.servidor.authorizationserver.repository.UserRepository;
 
 
 @Service

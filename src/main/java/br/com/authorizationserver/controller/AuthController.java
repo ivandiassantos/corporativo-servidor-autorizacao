@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.controller;
+package br.com.authorizationserver.controller;
 
 import java.security.Principal;
 

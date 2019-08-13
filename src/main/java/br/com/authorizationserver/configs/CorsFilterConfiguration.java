@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.configuracoes;
+package br.com.authorizationserver.configs;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

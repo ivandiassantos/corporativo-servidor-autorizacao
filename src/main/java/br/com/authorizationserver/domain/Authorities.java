@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.dominio;
+package br.com.authorizationserver.domain;
 
 public enum Authorities {
 

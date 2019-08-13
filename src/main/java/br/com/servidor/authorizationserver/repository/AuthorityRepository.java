@@ -1,8 +1,8 @@
-package br.com.servidor.autorizacao.repositorio;
+package br.com.servidor.authorizationserver.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.servidor.autorizacao.modelo.Authority;
+import br.com.authorizationserver.model.Authority;
 
 
 public interface AuthorityRepository extends JpaRepository<Authority, String>{

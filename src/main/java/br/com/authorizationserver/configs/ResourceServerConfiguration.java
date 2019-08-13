@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.configuracoes;
+package br.com.authorizationserver.configs;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

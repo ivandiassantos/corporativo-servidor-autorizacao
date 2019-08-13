@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.configuracoes;
+package br.com.authorizationserver.configs;
 
 import javax.sql.DataSource;
 
@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 
-import br.com.servidor.autorizacao.dominio.Authorities;
+import br.com.authorizationserver.domain.Authorities;
 
 
 @Configuration

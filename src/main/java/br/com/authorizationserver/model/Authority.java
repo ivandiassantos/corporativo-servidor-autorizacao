@@ -1,4 +1,4 @@
-package br.com.servidor.autorizacao.modelo;
+package br.com.authorizationserver.model;
 
 import java.io.Serializable;
 
